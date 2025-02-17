@@ -1,0 +1,20 @@
+universe=docker
+docker_image=zhexuanliu/chtc_example:1.0
+
+log=submit$(job_id).log
+error=submit$(job_id).err
+output=submit$(job_id).out
+
+executable=submit.sh
+arguments=$(job_id) $(n) $(d)
+
+transfer_input_files= args.txt, submit.R, submit.RData
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+
+request_cpus=1
+request_memory=16GB
+request_disk=16GB
+requirements=(has_avx == true)
+
+queue job_id, n, d from args.txt
