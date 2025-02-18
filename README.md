@@ -98,7 +98,7 @@ save(result, file = paste0("result_", n, "_", d, ".RData"))
    ssh username@ap2002.chtc.wisc.edu
    ```
 
-3. Upload all the files to CHTC. I prefer using [FileZilla](https://filezilla-project.org) to upload/download files. An introduction to FileZilla can bu found [here](https://www.med.upenn.edu/cdbmicroscopycore/assets/user-content/documents/New%20Filezilla%20Instructions.pdf).
+3. Upload all the files to CHTC. I prefer using [FileZilla](https://filezilla-project.org) to upload/download files. An introduction to FileZilla can be found [here](https://www.med.upenn.edu/cdbmicroscopycore/assets/user-content/documents/New%20Filezilla%20Instructions.pdf).
 
 4. Submit your jobs.
 
