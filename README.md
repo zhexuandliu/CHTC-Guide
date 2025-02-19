@@ -2,7 +2,7 @@
 
 ## Create a Docker image to run your R code in
 
-1. Create a folder containing the `Dockerfile`.
+1. Create a folder containing the `Dockerfile`, NO suffix.
 
    ```dockerfile
    # the file MUST be named "Dockerfile"
